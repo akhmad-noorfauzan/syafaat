@@ -14,23 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-    
-
-});
-
-Route::get('/beranda', function () {
-    return view('beranda');
-});
-
-Route::get('/artikel',function(){
-    return view('artikel');
-});
-
-Route::get('/peraturan', function () {
-    return view('peraturan');
-});
-
-Route::get('/tentang_kami', function () {
-    return view('tentang_kami');
+    return view('welcome');
 });
